@@ -1,0 +1,157 @@
+/*donner une position au header*/
+body {
+    padding: 0;
+    margin: 0;
+}
+header{
+    
+    background-color:#36192133 ;
+    display: flex; 
+    justify-content: space-between;
+    padding-left: 60px; padding-right: 70px;
+    width: auto;/*mettre le header a 100 sur tout la page*/
+
+}
+
+ol{
+    list-style: none; /*enleve la numerotaion sur la liste*/
+    display: flex;
+    gap: 30px; /*mettre un espace entre les enfants du parent*/
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*section 1*/
+
+.dep{
+    display: flex;/*deplace les diff div */
+    justify-content: center; /* pour centre les block de division*/
+    margin-top: 200px; /*mettre une marge en haut*/
+    gap: 50px; /*espace entre les block de div*/
+}
+
+.ombre{
+    box-shadow: 20px 20px;color:#361921 ;/*pour les ombres*/
+}
+
+.espace{
+    display: flex; /*separer les enfants*/
+    flex-direction: column;/*donner un alignement*/
+    justify-content: center;
+
+}
+
+.mef>h1{
+    font-size: 90px;/*mettre en gras*/
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.mef>p{
+    font-family:'Times New Roman', Times, serif;
+   font-style: italic; font-size: 60px;
+   
+}
+
+.gras>p>span{
+    font-size: 35px;
+
+}
+.gras{
+    font-size: 130%;
+}
+
+.long1{
+    background-color:red;
+    height: 30px;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.long2{
+    background-color:#D9D9D9;
+    height: 30px;
+}
+
+.arpl{
+    background-color: #361921;
+}
+
+/*section 2*/
+
+.colb{
+    background-color: #361921;
+    display: flex;
+    justify-content:center;
+    padding: 150px;
+    
+}
+
+.police{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.police>p>span{
+    font-style: italic;
+}
+.line{
+    background-color: #FFFFFF;
+    margin: 30px auto;
+    width: 350px;
+    height: 1px;
+}
+.vector2{
+position: absolute;
+left: 500px;
+}
+.vector1{
+    position: absolute;
+    right: 500px; 
+}
+
+/*section 3*/
+.sup{
+    margin: 0;
+    padding: 0;
+}
+.bad{
+background-image: url(/img/girl\ horizon.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 700px;
+display: flex;justify-content: center;color: #FFFFFF;
+text-align: center;align-items: center;
+font-family: arial,times new roman,sans-serif;
+font-size: 50px; font-style: italic;
+
+}
+.bad>p>span{
+    font-size: 200px;
+}
+
+/*section-4*/
+.ber{
+    margin: 0;
+    padding: 0; 
+    font-family: arial,sans-serif;
+    display: flex; justify-content: center;
+    align-items: center;height: 700px;
+    background-color: #FFFFFF;
+}
+.ber>h1{
+    margin-bottom: 20px;
+    font-size: 60px;
+    color: #361921;
+}
+input[type="text"],input[type="email"] {
+    width: 100%; padding: 10px; margin-bottom: 15px;
+    border-radius: 4px; border: 1px solid #361921;
+    font-size: 14px;
+}
+input[type="sub,it"]{
+    border: none; border-radius: 4px;
+    padding: 10px 20px;
+    background-color: #361921;
+    cursor: pointer; font-size: 14px;
+}

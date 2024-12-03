@@ -1,0 +1,30 @@
+@keyframes mon-animation {
+    0%{
+        opacity: 0;
+        color:red;
+    
+
+    }
+    50%{
+        opacity: 0.5;
+        color:green;
+    }
+
+    100%{
+        opacity: 1;
+        color:black;
+    }
+}
+
+p{
+    animation-name: mon-animation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+
+}
+.dis{
+    display:inline-flex;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>LES BALISES HTML</title>
+</head>
+<body>
+    
+<div style="background-color:whitesmoke;width: 300px;height: 600px;">
+    <blockquote>
+        <h1 style="color: red;font-size: larger;">
+            <i>La vie appartien a ceux qui se levent tot</i>
+        </h1>
+        <footer>
+            <i>koumeni ulrich</i>
+        </footer>
+
+    </blockquote>
+    
+</div>
+
+
+<div style="background-color: fuchsia;">
+    <a href="https://www.youtube.com/watch?v=5GawGdPMws8&list=RDMM5GawGdPMws8&start_radio=1" target="_blank">
+        <img src="photo_2024-11-21_18-08-25.jpg" alt="top extension dev">
+    </a>
+</div>
+
+<div style="background-color: lawngreen;position: -ms-page;">
+    <ol>
+        <li>je t'aime</li>
+        <li>un peu</li>
+        <li>beaucoup</li>
+        <li>passionement</li>
+    </ol>
+</div>
+
+<form action="style.css" method="post">
+    <label for="nom">Nom:</label>
+    <input type="text" name="nom" placeholder="veillez entré votre nom">
+    <label for="Prenom">Prenom:</label>
+    <input type="text" name="Prenom" placeholder="veillez entré votre Prenom">
+
+    <br><br>
+
+    <label for="adresse email">adresse email:</label>
+    <input type="email" name="adresse email" placeholder="veillez entré votre adresse email">
+
+    <br><br>
+
+    <label for="date">Date de naissance</label>
+    <input type="date" name="date de naissance">
+
+    <br><br>
+
+    <label for="lieu">lieu de naissance</label>
+    <select name="ville" id="ville">
+        <option value="Douala">Douala</option>
+        <option value="Yaounde">Yaounde</option>
+        <option value="Bafoussam">Bafoussam</option>
+        <option value="Bamenda">Bamenda</option>
+        <option value="Garoua">Garoua</option>
+        <option value="Maroua">Maroua</option>
+        <option value="Ebolowa">Ebolowa</option>
+    </select>
+
+    <br><br>
+
+    <label for="Genre">Genre:</label>
+    <input type="radio" value="homme" name="Genre">
+    <input type="radio" value="femme" name="Genre">
+    <input type="radio" value="nombinaire" name="Genre">
+
+    <br><br>
+    <label for="contact">Contact:</label>
+    <input type="text" name="contact" placeholder="veillez entré vote contact">
+
+    <br><br>
+    <label for="imageupload">photo profil</label>
+    <input type="file" name="image" accept="image/*" width="200px" height="300px">
+
+    <br><br>
+    <input type="submit" value="envoyer">
+    
+</form>
+
+</body>
+</html>
