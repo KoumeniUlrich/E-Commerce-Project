@@ -131,27 +131,12 @@ font-size: 50px; font-style: italic;
 }
 
 /*section-4*/
-.ber{
-    margin: 0;
-    padding: 0; 
-    font-family: arial,sans-serif;
-    display: flex; justify-content: center;
-    align-items: center;height: 700px;
-    background-color: #FFFFFF;
-}
-.ber>h1{
-    margin-bottom: 20px;
-    font-size: 60px;
-    color: #361921;
-}
-input[type="text"],input[type="email"] {
-    width: 100%; padding: 10px; margin-bottom: 15px;
-    border-radius: 4px; border: 1px solid #361921;
-    font-size: 14px;
-}
-input[type="sub,it"]{
-    border: none; border-radius: 4px;
-    padding: 10px 20px;
-    background-color: #361921;
-    cursor: pointer; font-size: 14px;
+
+.bloc{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px;
+    padding: auto;
+   
 }
